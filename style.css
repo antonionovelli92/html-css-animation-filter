@@ -118,10 +118,26 @@
     }
 }
 
-
+/* ! 11 esercizio */
 
 .ex-11-icon {
     font-size: 60px;
+    animation: spintrequar 2s linear infinite;
+}
+
+
+@keyframes spintrequar {
+    0% {
+        transform: rotate(0);
+    }
+
+    90% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }
 
 .ex-12-button,
