@@ -84,6 +84,30 @@
     width: 500px;
 }
 
+/* ! 6 esercizio */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* ! 7 esercizio */
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.6) sepia(.5);
+}
+
+/* ! 8 esercizio */
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
