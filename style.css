@@ -3,9 +3,6 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-}
-
-.ex-1-square {
     transition: 2s;
 }
 
@@ -18,9 +15,6 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-
-.ex-2-square {
     transition: 2s;
 }
 
@@ -33,9 +27,6 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-
-.ex-3-square {
     transition: 4s;
 }
 
@@ -48,9 +39,6 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-
-.ex-4-square {
     transition: 4s;
 }
 
@@ -64,9 +52,6 @@
     width: 60px;
     height: 60px;
     background: red;
-}
-
-.ex-5-square {
     transition: 1s;
 }
 
@@ -108,9 +93,20 @@
     border-radius: 20px;
 }
 
+/* ! 9 esercizio */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+}
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
 }
 
 .ex-10-icon {
