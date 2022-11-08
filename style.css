@@ -28,12 +28,22 @@
     width: 100%;
 }
 
+/* ! 3 esercizio */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
 
+.ex-3-square {
+    transition: 4s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/* ! 4 esercizo */
 .ex-4-square {
     width: 100px;
     height: 100px;
